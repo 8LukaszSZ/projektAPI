@@ -12,9 +12,9 @@ class PeopleSeeder extends Seeder
     /**
      * Run the database seeds.
      *
-     * @return void
+     * @return void 
      */
-    public function run(): void
+    public function run(): void 
     {
         DB::table('people')->delete();
 
