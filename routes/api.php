@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\PeopleController;
+use App\Http\Controllers\API\PeopleController; 
 
 Route::get('szkatula/305409/people', [PeopleController::class, 'index']);
 Route::post('szkatula/305409/people', [PeopleController::class, 'create']);
